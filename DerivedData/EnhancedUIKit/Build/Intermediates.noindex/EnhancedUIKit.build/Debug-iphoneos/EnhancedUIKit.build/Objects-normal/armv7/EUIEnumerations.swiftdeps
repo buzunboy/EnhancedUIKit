@@ -1,0 +1,219 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "logLevel"
+- "requestHTTPType"
+- "extendedErrorCodes"
+- "extendedErrorDomains"
+- "applicationStates"
+provides-nominal:
+- "13EnhancedUIKit8logLevelO"
+- "13EnhancedUIKit15requestHTTPTypeO"
+- "13EnhancedUIKit18extendedErrorCodesO"
+- "13EnhancedUIKit20extendedErrorDomainsO"
+- "13EnhancedUIKit17applicationStatesO"
+provides-member:
+- ["13EnhancedUIKit8logLevelO", ""]
+- ["13EnhancedUIKit15requestHTTPTypeO", ""]
+- ["13EnhancedUIKit18extendedErrorCodesO", ""]
+- ["13EnhancedUIKit20extendedErrorDomainsO", ""]
+- ["13EnhancedUIKit17applicationStatesO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Array"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- "applicationStates"
+- "extendedErrorCodes"
+- "extendedErrorDomains"
+- "logLevel"
+- "requestHTTPType"
+- !private "~="
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_findStringSwitchCase"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_findStringSwitchCase"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "rawValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "_findStringSwitchCase"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["13EnhancedUIKit17applicationStatesO", "RawValue"]
+- ["13EnhancedUIKit17applicationStatesO", "_Default_RawValue"]
+- !private ["13EnhancedUIKit17applicationStatesO", "_findStringSwitchCase"]
+- ["13EnhancedUIKit17applicationStatesO", "applicationDidBecomeActive"]
+- ["13EnhancedUIKit17applicationStatesO", "applicationWillEnterBackground"]
+- ["13EnhancedUIKit17applicationStatesO", "applicationWillEnterForeGround"]
+- ["13EnhancedUIKit17applicationStatesO", "applicationWillResignActive"]
+- ["13EnhancedUIKit17applicationStatesO", "applicationWillTerminate"]
+- ["13EnhancedUIKit17applicationStatesO", "deinit"]
+- ["13EnhancedUIKit17applicationStatesO", "hashValue"]
+- ["13EnhancedUIKit17applicationStatesO", "init"]
+- ["13EnhancedUIKit17applicationStatesO", "rawValue"]
+- ["13EnhancedUIKit18extendedErrorCodesO", "RawValue"]
+- ["13EnhancedUIKit18extendedErrorCodesO", "_Default_RawValue"]
+- ["13EnhancedUIKit18extendedErrorCodesO", "deinit"]
+- ["13EnhancedUIKit18extendedErrorCodesO", "hashValue"]
+- ["13EnhancedUIKit18extendedErrorCodesO", "init"]
+- ["13EnhancedUIKit18extendedErrorCodesO", "jsonError"]
+- ["13EnhancedUIKit18extendedErrorCodesO", "rawValue"]
+- ["13EnhancedUIKit18extendedErrorCodesO", "taskError"]
+- ["13EnhancedUIKit18extendedErrorCodesO", "urlConvertionError"]
+- ["13EnhancedUIKit20extendedErrorDomainsO", "EUIKitDomain"]
+- ["13EnhancedUIKit20extendedErrorDomainsO", "RawValue"]
+- ["13EnhancedUIKit20extendedErrorDomainsO", "_Default_RawValue"]
+- !private ["13EnhancedUIKit20extendedErrorDomainsO", "_findStringSwitchCase"]
+- ["13EnhancedUIKit20extendedErrorDomainsO", "deinit"]
+- ["13EnhancedUIKit20extendedErrorDomainsO", "hashValue"]
+- ["13EnhancedUIKit20extendedErrorDomainsO", "init"]
+- ["13EnhancedUIKit20extendedErrorDomainsO", "rawValue"]
+- ["13EnhancedUIKit8logLevelO", "Error"]
+- ["13EnhancedUIKit8logLevelO", "Info"]
+- ["13EnhancedUIKit8logLevelO", "RawValue"]
+- ["13EnhancedUIKit8logLevelO", "Verbose"]
+- ["13EnhancedUIKit8logLevelO", "Warning"]
+- ["13EnhancedUIKit8logLevelO", "_Default_RawValue"]
+- ["13EnhancedUIKit8logLevelO", "deinit"]
+- ["13EnhancedUIKit8logLevelO", "hashValue"]
+- ["13EnhancedUIKit8logLevelO", "init"]
+- ["13EnhancedUIKit8logLevelO", "rawValue"]
+- ["13EnhancedUIKit15requestHTTPTypeO", "RawValue"]
+- ["13EnhancedUIKit15requestHTTPTypeO", "_Default_RawValue"]
+- !private ["13EnhancedUIKit15requestHTTPTypeO", "_findStringSwitchCase"]
+- ["13EnhancedUIKit15requestHTTPTypeO", "deinit"]
+- ["13EnhancedUIKit15requestHTTPTypeO", "delete"]
+- ["13EnhancedUIKit15requestHTTPTypeO", "get"]
+- ["13EnhancedUIKit15requestHTTPTypeO", "hashValue"]
+- ["13EnhancedUIKit15requestHTTPTypeO", "init"]
+- ["13EnhancedUIKit15requestHTTPTypeO", "patch"]
+- ["13EnhancedUIKit15requestHTTPTypeO", "post"]
+- ["13EnhancedUIKit15requestHTTPTypeO", "put"]
+- ["13EnhancedUIKit15requestHTTPTypeO", "rawValue"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+- "13EnhancedUIKit17applicationStatesO"
+- "13EnhancedUIKit18extendedErrorCodesO"
+- "13EnhancedUIKit20extendedErrorDomainsO"
+- "13EnhancedUIKit8logLevelO"
+- "13EnhancedUIKit15requestHTTPTypeO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/burakuzunboy/Projects/Frameworks/EnhancedUIKit/EnhancedUIKit/EnhancedUIKit.h"
+- "/Users/burakuzunboy/Projects/Frameworks/EnhancedUIKit/DerivedData/EnhancedUIKit/Build/Intermediates.noindex/EnhancedUIKit.build/Debug-iphoneos/EnhancedUIKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a048906475a39a020ec1de2ef978c214"

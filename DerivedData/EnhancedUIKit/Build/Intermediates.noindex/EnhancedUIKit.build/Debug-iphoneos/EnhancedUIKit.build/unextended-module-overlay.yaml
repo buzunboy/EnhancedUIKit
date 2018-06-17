@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/burakuzunboy/Projects/Frameworks/EnhancedUIKit/DerivedData/EnhancedUIKit/Build/Products/Debug-iphoneos/EnhancedUIKit.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/burakuzunboy/Projects/Frameworks/EnhancedUIKit/DerivedData/EnhancedUIKit/Build/Intermediates.noindex/EnhancedUIKit.build/Debug-iphoneos/EnhancedUIKit.build/unextended-module.modulemap',
+    }]
+  }]
+}

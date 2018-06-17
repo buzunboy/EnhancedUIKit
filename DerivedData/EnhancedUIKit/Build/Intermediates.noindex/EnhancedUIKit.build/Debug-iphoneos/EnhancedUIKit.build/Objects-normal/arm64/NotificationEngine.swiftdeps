@@ -1,0 +1,516 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "13EnhancedUIKit6EUIKitC18NotificationEngineC"
+provides-member:
+- ["13EnhancedUIKit6EUIKitC", ""]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", ""]
+- ["13EnhancedUIKit6EUIKitC", "NotificationEngine"]
+provides-dynamic-lookup:
+- "applicationDidBecomeActive"
+- "applicationWillEnterBackground"
+- "applicationWillEnterForeGround"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "??"
+- "AnyHashable"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "EUIKit"
+- "NSObject"
+- !private "Notification"
+- !private "NotificationCenter"
+- "NotificationObserverDelegate"
+- "Selector"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "contains"]
+- ["Sa", "init"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "contains"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "EUIKit"]
+- !private ["s7CVarArgP", "LogInterface"]
+- !private ["s7CVarArgP", "Notification"]
+- !private ["s7CVarArgP", "NotificationCenter"]
+- ["s7CVarArgP", "NotificationEngine"]
+- ["s7CVarArgP", "NotificationObserverDelegate"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addAppStateObservers"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "addStandardObservers"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "applicationDidBecomeActive"]
+- !private ["s7CVarArgP", "applicationWillEnterBackground"]
+- !private ["s7CVarArgP", "applicationWillEnterForeGround"]
+- !private ["s7CVarArgP", "applicationWillResignActive"]
+- !private ["s7CVarArgP", "applicationWillTerminate"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "delegates"]
+- !private ["s7CVarArgP", "description"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "log"]
+- !private ["s7CVarArgP", "post"]
+- !private ["s7CVarArgP", "removeObserver"]
+- !private ["s7CVarArgP", "shouldAddStateObservers"]
+- !private ["s7CVarArgP", "shouldCallDelegates"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "contains"]
+- !private ["s10CollectionP", "description"]
+- ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "EUIKit"]
+- !private ["s28CustomDebugStringConvertibleP", "LogInterface"]
+- !private ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "Notification"]
+- !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
+- ["s28CustomDebugStringConvertibleP", "NotificationEngine"]
+- ["s28CustomDebugStringConvertibleP", "NotificationObserverDelegate"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAppStateObservers"]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "addStandardObservers"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
+- !private ["s28CustomDebugStringConvertibleP", "applicationWillEnterBackground"]
+- !private ["s28CustomDebugStringConvertibleP", "applicationWillEnterForeGround"]
+- !private ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
+- !private ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "delegates"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "log"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "shouldAddStateObservers"]
+- !private ["s28CustomDebugStringConvertibleP", "shouldCallDelegates"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "Name"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "applicationDidBecomeActive"]
+- !private ["s17CustomReflectableP", "applicationWillEnterBackground"]
+- !private ["s17CustomReflectableP", "applicationWillEnterForeGround"]
+- !private ["s17CustomReflectableP", "applicationWillResignActive"]
+- !private ["s17CustomReflectableP", "applicationWillTerminate"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "description"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "EUIKit"]
+- !private ["s23CustomStringConvertibleP", "LogInterface"]
+- !private ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "Notification"]
+- !private ["s23CustomStringConvertibleP", "NotificationCenter"]
+- ["s23CustomStringConvertibleP", "NotificationEngine"]
+- ["s23CustomStringConvertibleP", "NotificationObserverDelegate"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addAppStateObservers"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "addStandardObservers"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
+- !private ["s23CustomStringConvertibleP", "applicationWillEnterBackground"]
+- !private ["s23CustomStringConvertibleP", "applicationWillEnterForeGround"]
+- !private ["s23CustomStringConvertibleP", "applicationWillResignActive"]
+- !private ["s23CustomStringConvertibleP", "applicationWillTerminate"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "delegates"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "log"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- !private ["s23CustomStringConvertibleP", "shouldAddStateObservers"]
+- !private ["s23CustomStringConvertibleP", "shouldCallDelegates"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "applicationDidBecomeActive"]
+- !private ["s9DecodableP", "applicationWillEnterBackground"]
+- !private ["s9DecodableP", "applicationWillEnterForeGround"]
+- !private ["s9DecodableP", "applicationWillResignActive"]
+- !private ["s9DecodableP", "applicationWillTerminate"]
+- !private ["s9DecodableP", "contains"]
+- !private ["s9DecodableP", "description"]
+- ["s9DecodableP", "init"]
+- !private ["s10DictionaryV", "description"]
+- ["13EnhancedUIKit6EUIKitC", "AnyHashable"]
+- ["13EnhancedUIKit6EUIKitC", "Bool"]
+- !private ["13EnhancedUIKit6EUIKitC", "EUIKit"]
+- !private ["13EnhancedUIKit6EUIKitC", "LogInterface"]
+- ["13EnhancedUIKit6EUIKitC", "NSObject"]
+- !private ["13EnhancedUIKit6EUIKitC", "Notification"]
+- !private ["13EnhancedUIKit6EUIKitC", "NotificationCenter"]
+- ["13EnhancedUIKit6EUIKitC", "NotificationEngine"]
+- ["13EnhancedUIKit6EUIKitC", "NotificationObserverDelegate"]
+- ["13EnhancedUIKit6EUIKitC", "Selector"]
+- ["13EnhancedUIKit6EUIKitC", "String"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "applicationDidBecomeActive"]
+- !private ["s9EncodableP", "applicationWillEnterBackground"]
+- !private ["s9EncodableP", "applicationWillEnterForeGround"]
+- !private ["s9EncodableP", "applicationWillResignActive"]
+- !private ["s9EncodableP", "applicationWillTerminate"]
+- !private ["s9EncodableP", "contains"]
+- !private ["s9EncodableP", "description"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "EUIKit"]
+- !private ["s9EquatableP", "Info"]
+- !private ["s9EquatableP", "LogInterface"]
+- !private ["s9EquatableP", "Name"]
+- !private ["s9EquatableP", "Notification"]
+- !private ["s9EquatableP", "NotificationCenter"]
+- ["s9EquatableP", "NotificationEngine"]
+- ["s9EquatableP", "NotificationObserverDelegate"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addAppStateObservers"]
+- !private ["s9EquatableP", "addObserver"]
+- !private ["s9EquatableP", "addStandardObservers"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "applicationDidBecomeActive"]
+- !private ["s9EquatableP", "applicationWillEnterBackground"]
+- !private ["s9EquatableP", "applicationWillEnterForeGround"]
+- !private ["s9EquatableP", "applicationWillResignActive"]
+- !private ["s9EquatableP", "applicationWillTerminate"]
+- !private ["s9EquatableP", "contains"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "delegates"]
+- !private ["s9EquatableP", "description"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "log"]
+- !private ["s9EquatableP", "post"]
+- !private ["s9EquatableP", "removeObserver"]
+- !private ["s9EquatableP", "shouldAddStateObservers"]
+- !private ["s9EquatableP", "shouldCallDelegates"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "description"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "applicationDidBecomeActive"]
+- !private ["s23ExpressibleByNilLiteralP", "applicationWillEnterBackground"]
+- !private ["s23ExpressibleByNilLiteralP", "applicationWillEnterForeGround"]
+- !private ["s23ExpressibleByNilLiteralP", "applicationWillResignActive"]
+- !private ["s23ExpressibleByNilLiteralP", "applicationWillTerminate"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "EUIKit"]
+- !private ["s8HashableP", "Info"]
+- !private ["s8HashableP", "LogInterface"]
+- !private ["s8HashableP", "Name"]
+- !private ["s8HashableP", "Notification"]
+- !private ["s8HashableP", "NotificationCenter"]
+- ["s8HashableP", "NotificationEngine"]
+- ["s8HashableP", "NotificationObserverDelegate"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addAppStateObservers"]
+- !private ["s8HashableP", "addObserver"]
+- !private ["s8HashableP", "addStandardObservers"]
+- !private ["s8HashableP", "applicationDidBecomeActive"]
+- !private ["s8HashableP", "applicationWillEnterBackground"]
+- !private ["s8HashableP", "applicationWillEnterForeGround"]
+- !private ["s8HashableP", "applicationWillResignActive"]
+- !private ["s8HashableP", "applicationWillTerminate"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "delegates"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "log"]
+- !private ["s8HashableP", "post"]
+- !private ["s8HashableP", "removeObserver"]
+- !private ["s8HashableP", "shouldAddStateObservers"]
+- !private ["s8HashableP", "shouldCallDelegates"]
+- !private ["13EnhancedUIKit6EUIKitC12LogInterfaceC", "log"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "contains"]
+- ["s17MutableCollectionP", "init"]
+- ["So8NSObjectC", "AnyHashable"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "EUIKit"]
+- !private ["So8NSObjectC", "LogInterface"]
+- ["So8NSObjectC", "NSObject"]
+- !private ["So8NSObjectC", "Notification"]
+- !private ["So8NSObjectC", "NotificationCenter"]
+- ["So8NSObjectC", "NotificationEngine"]
+- ["So8NSObjectC", "NotificationObserverDelegate"]
+- ["So8NSObjectC", "Selector"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "addAppStateObservers"]
+- ["So8NSObjectC", "addDelegate"]
+- ["So8NSObjectC", "addObserver"]
+- ["So8NSObjectC", "addStandardObservers"]
+- ["So8NSObjectC", "applicationDidBecomeActive"]
+- ["So8NSObjectC", "applicationWillEnterBackground"]
+- ["So8NSObjectC", "applicationWillEnterForeGround"]
+- ["So8NSObjectC", "applicationWillResignActive"]
+- ["So8NSObjectC", "applicationWillTerminate"]
+- ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "delegates"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "log"]
+- !private ["So8NSObjectC", "post"]
+- ["So8NSObjectC", "publishMessage"]
+- !private ["So8NSObjectC", "removeObserver"]
+- ["So8NSObjectC", "shouldAddStateObservers"]
+- ["So8NSObjectC", "shouldCallDelegates"]
+- ["So8NSObjectC", "start"]
+- ["So8NSObjectC", "stop"]
+- !private ["So16NSObjectProtocolP", "EUIKit"]
+- !private ["So16NSObjectProtocolP", "LogInterface"]
+- !private ["So16NSObjectProtocolP", "Notification"]
+- !private ["So16NSObjectProtocolP", "NotificationCenter"]
+- ["So16NSObjectProtocolP", "NotificationEngine"]
+- ["So16NSObjectProtocolP", "NotificationObserverDelegate"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addAppStateObservers"]
+- !private ["So16NSObjectProtocolP", "addObserver"]
+- !private ["So16NSObjectProtocolP", "addStandardObservers"]
+- !private ["So16NSObjectProtocolP", "applicationDidBecomeActive"]
+- !private ["So16NSObjectProtocolP", "applicationWillEnterBackground"]
+- !private ["So16NSObjectProtocolP", "applicationWillEnterForeGround"]
+- !private ["So16NSObjectProtocolP", "applicationWillResignActive"]
+- !private ["So16NSObjectProtocolP", "applicationWillTerminate"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "delegates"]
+- !private ["So16NSObjectProtocolP", "didApplicationStateChanged"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isEqual"]
+- !private ["So16NSObjectProtocolP", "log"]
+- !private ["So16NSObjectProtocolP", "post"]
+- !private ["So16NSObjectProtocolP", "removeObserver"]
+- !private ["So16NSObjectProtocolP", "shouldAddStateObservers"]
+- !private ["So16NSObjectProtocolP", "shouldCallDelegates"]
+- !private ["So14NSNotificationC4NameV", "applicationDidBecomeActive"]
+- !private ["So14NSNotificationC4NameV", "applicationWillEnterBackground"]
+- !private ["So14NSNotificationC4NameV", "applicationWillEnterForeGround"]
+- !private ["So14NSNotificationC4NameV", "applicationWillResignActive"]
+- !private ["So14NSNotificationC4NameV", "applicationWillTerminate"]
+- !private ["So14NSNotificationC4NameV", "init"]
+- !private ["10Foundation12NotificationV", "Name"]
+- !private ["So18NotificationCenterC", "addObserver"]
+- !private ["So18NotificationCenterC", "default"]
+- !private ["So18NotificationCenterC", "post"]
+- !private ["So18NotificationCenterC", "removeObserver"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "AnyHashable"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "Bool"]
+- !private ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "EUIKit"]
+- !private ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "Notification"]
+- !private ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "NotificationCenter"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "NotificationEngine"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "NotificationObserverDelegate"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "Selector"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "String"]
+- !private ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "addAppStateObservers"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "addDelegate"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "addObserver"]
+- !private ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "addStandardObservers"]
+- !private ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "applicationDidBecomeActive"]
+- !private ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "applicationWillEnterBackground"]
+- !private ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "applicationWillEnterForeGround"]
+- !private ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "applicationWillResignActive"]
+- !private ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "applicationWillTerminate"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "current"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "deinit"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "delegates"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "init"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "publishMessage"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "shouldAddStateObservers"]
+- !private ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "shouldCallDelegates"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "start"]
+- ["13EnhancedUIKit6EUIKitC18NotificationEngineC", "stop"]
+- !private ["13EnhancedUIKit28NotificationObserverDelegateP", "didApplicationStateChanged"]
+- !private ["13EnhancedUIKit28NotificationObserverDelegateP", "isEqual"]
+- !private ["Sq", "applicationDidBecomeActive"]
+- !private ["Sq", "applicationWillEnterBackground"]
+- !private ["Sq", "applicationWillEnterForeGround"]
+- !private ["Sq", "applicationWillResignActive"]
+- !private ["Sq", "applicationWillTerminate"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "contains"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "contains"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "Info"]
+- !private ["s16RawRepresentableP", "applicationDidBecomeActive"]
+- !private ["s16RawRepresentableP", "applicationWillEnterBackground"]
+- !private ["s16RawRepresentableP", "applicationWillEnterForeGround"]
+- !private ["s16RawRepresentableP", "applicationWillResignActive"]
+- !private ["s16RawRepresentableP", "applicationWillTerminate"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "Name"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "contains"]
+- !private ["s8SequenceP", "description"]
+- ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EUIKit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LogInterface"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Notification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NotificationEngine"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NotificationObserverDelegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAppStateObservers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addStandardObservers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillEnterBackground"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillEnterForeGround"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegates"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "log"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldAddStateObservers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldCallDelegates"]
+- !private ["s21_ObjectiveCBridgeableP", "Name"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "applicationDidBecomeActive"]
+- !private ["s21_ObjectiveCBridgeableP", "applicationWillEnterBackground"]
+- !private ["s21_ObjectiveCBridgeableP", "applicationWillEnterForeGround"]
+- !private ["s21_ObjectiveCBridgeableP", "applicationWillResignActive"]
+- !private ["s21_ObjectiveCBridgeableP", "applicationWillTerminate"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "applicationDidBecomeActive"]
+- !private ["s20_SwiftNewtypeWrapperP", "applicationWillEnterBackground"]
+- !private ["s20_SwiftNewtypeWrapperP", "applicationWillEnterForeGround"]
+- !private ["s20_SwiftNewtypeWrapperP", "applicationWillResignActive"]
+- !private ["s20_SwiftNewtypeWrapperP", "applicationWillTerminate"]
+- !private ["s20_SwiftNewtypeWrapperP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["13EnhancedUIKit17applicationStatesO", "applicationDidBecomeActive"]
+- !private ["13EnhancedUIKit17applicationStatesO", "applicationWillEnterBackground"]
+- !private ["13EnhancedUIKit17applicationStatesO", "applicationWillEnterForeGround"]
+- !private ["13EnhancedUIKit17applicationStatesO", "applicationWillResignActive"]
+- !private ["13EnhancedUIKit17applicationStatesO", "applicationWillTerminate"]
+- !private ["13EnhancedUIKit8logLevelO", "Info"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- "13EnhancedUIKit6EUIKitC"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "13EnhancedUIKit6EUIKitC12LogInterfaceC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSNotificationC4NameV"
+- !private "10Foundation12NotificationV"
+- !private "So18NotificationCenterC"
+- "13EnhancedUIKit6EUIKitC18NotificationEngineC"
+- !private "13EnhancedUIKit28NotificationObserverDelegateP"
+- !private "Sq"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+- !private "13EnhancedUIKit17applicationStatesO"
+- !private "13EnhancedUIKit8logLevelO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/burakuzunboy/Projects/Frameworks/EnhancedUIKit/EnhancedUIKit/EnhancedUIKit.h"
+- "/Users/burakuzunboy/Projects/Frameworks/EnhancedUIKit/DerivedData/EnhancedUIKit/Build/Intermediates.noindex/EnhancedUIKit.build/Debug-iphoneos/EnhancedUIKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "4dad76183f0d1f6c1da7e63b37d91a69"

@@ -1,0 +1,10 @@
+framework module EnhancedUIKit {
+  umbrella header "EnhancedUIKit.h"
+
+  export *
+  module * { export * }
+}
+
+module EnhancedUIKit.__Swift {
+    exclude header "EnhancedUIKit-Swift.h"
+}

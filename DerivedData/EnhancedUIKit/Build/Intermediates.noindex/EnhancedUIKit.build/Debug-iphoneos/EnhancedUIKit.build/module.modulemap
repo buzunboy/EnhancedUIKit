@@ -1,0 +1,11 @@
+framework module EnhancedUIKit {
+  umbrella header "EnhancedUIKit.h"
+
+  export *
+  module * { export * }
+}
+
+module EnhancedUIKit.Swift {
+    header "EnhancedUIKit-Swift.h"
+    requires objc
+}
