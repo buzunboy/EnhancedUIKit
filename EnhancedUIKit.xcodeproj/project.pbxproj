@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B002D50F20D6D70D000E6478 /* CoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B002D50E20D6D70D000E6478 /* CoverTableViewController.swift */; };
 		B0098A9820D44B1C00CF4A24 /* EnhancedUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0098A8E20D44B1C00CF4A24 /* EnhancedUIKit.framework */; };
 		B0098A9D20D44B1C00CF4A24 /* EnhancedUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0098A9C20D44B1C00CF4A24 /* EnhancedUIKitTests.swift */; };
 		B0098A9F20D44B1C00CF4A24 /* EnhancedUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B0098A9120D44B1C00CF4A24 /* EnhancedUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +27,8 @@
 		B0098B1120D5737500CF4A24 /* UITableViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0098B1020D5737500CF4A24 /* UITableViewExt.swift */; };
 		B0098B1320D5758700CF4A24 /* UICollectionViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0098B1220D5758700CF4A24 /* UICollectionViewExt.swift */; };
 		B0098B1520D575AB00CF4A24 /* EUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0098B1420D575AB00CF4A24 /* EUICollectionViewCell.swift */; };
+		B092D83920DB8E83001BA7C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B092D83820DB8E83001BA7C8 /* UIKit.framework */; };
+		B092D83B20DB8E88001BA7C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B092D83A20DB8E88001BA7C8 /* Foundation.framework */; };
 		B0BE8E5720D587F800C8DF5E /* NotificationExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE8E5620D587F800C8DF5E /* NotificationExt.swift */; };
 		B0BE8E5920D5891700C8DF5E /* NotificationObserverDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE8E5820D5891700C8DF5E /* NotificationObserverDelegate.swift */; };
 		B0BE8E5B20D58FE000C8DF5E /* NotificationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BE8E5A20D58FE000C8DF5E /* NotificationEngine.swift */; };
@@ -42,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B002D50E20D6D70D000E6478 /* CoverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverTableViewController.swift; sourceTree = "<group>"; };
 		B0098A8E20D44B1C00CF4A24 /* EnhancedUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EnhancedUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0098A9120D44B1C00CF4A24 /* EnhancedUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnhancedUIKit.h; sourceTree = "<group>"; };
 		B0098A9220D44B1C00CF4A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 		B0098B1020D5737500CF4A24 /* UITableViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExt.swift; sourceTree = "<group>"; };
 		B0098B1220D5758700CF4A24 /* UICollectionViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExt.swift; sourceTree = "<group>"; };
 		B0098B1420D575AB00CF4A24 /* EUICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EUICollectionViewCell.swift; sourceTree = "<group>"; };
+		B092D83820DB8E83001BA7C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B092D83A20DB8E88001BA7C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0BE8E5620D587F800C8DF5E /* NotificationExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationExt.swift; sourceTree = "<group>"; };
 		B0BE8E5820D5891700C8DF5E /* NotificationObserverDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationObserverDelegate.swift; sourceTree = "<group>"; };
 		B0BE8E5A20D58FE000C8DF5E /* NotificationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationEngine.swift; sourceTree = "<group>"; };
@@ -74,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B092D83B20DB8E88001BA7C8 /* Foundation.framework in Frameworks */,
+				B092D83920DB8E83001BA7C8 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +96,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B002D50D20D6D6C1000E6478 /* Customized View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B002D50E20D6D70D000E6478 /* CoverTableViewController.swift */,
+			);
+			path = "Customized View Controllers";
+			sourceTree = "<group>";
+		};
 		B0098A8420D44B1C00CF4A24 = {
 			isa = PBXGroup;
 			children = (
 				B0098A9020D44B1C00CF4A24 /* EnhancedUIKit */,
 				B0098A9B20D44B1C00CF4A24 /* EnhancedUIKitTests */,
 				B0098A8F20D44B1C00CF4A24 /* Products */,
+				B092D83720DB8E82001BA7C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,7 @@
 		B0098AB120D44D9000CF4A24 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B002D50D20D6D6C1000E6478 /* Customized View Controllers */,
 				B0098AA820D44B4300CF4A24 /* EUIViewController.swift */,
 				B0098AFD20D5354D00CF4A24 /* EUITableViewController.swift */,
 			);
@@ -197,6 +215,15 @@
 				B0BE8E5A20D58FE000C8DF5E /* NotificationEngine.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		B092D83720DB8E82001BA7C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B092D83A20DB8E88001BA7C8 /* Foundation.framework */,
+				B092D83820DB8E83001BA7C8 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +350,7 @@
 				B0098AAD20D44BCE00CF4A24 /* EUIEnumerations.swift in Sources */,
 				B0098B0F20D565AE00CF4A24 /* NSErrorExt.swift in Sources */,
 				B0098AAF20D44CC900CF4A24 /* LogInterface.swift in Sources */,
+				B002D50F20D6D70D000E6478 /* CoverTableViewController.swift in Sources */,
 				B0BE8E5920D5891700C8DF5E /* NotificationObserverDelegate.swift in Sources */,
 				B0098B0620D5399E00CF4A24 /* UIViewControllerProtocol.swift in Sources */,
 				B0098AA920D44B4300CF4A24 /* EUIViewController.swift in Sources */,
