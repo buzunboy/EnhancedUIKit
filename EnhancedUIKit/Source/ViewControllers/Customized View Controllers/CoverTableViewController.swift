@@ -34,8 +34,10 @@ open class CoverTableViewController: EUITableViewController {
     
     /**
      * The height of the cover image, when scroll position pass this value, cover image will disappears completely from the view.
+     *
+     * Default value is 300
      */
-    open var coverHeight: CGFloat = 300
+    private var coverHeight: CGFloat = 300
     private var coverImageView: UIImageView!
     
     /**
@@ -45,6 +47,8 @@ open class CoverTableViewController: EUITableViewController {
     
     override open func viewDidLoad() {
         super.viewDidLoad()
+        self.tableView.reloadData()
+        self.tableView.separatorStyle = .none
         self.reloadCoverImageView()
     }
     
@@ -76,22 +80,35 @@ open class CoverTableViewController: EUITableViewController {
         coverImageView.clipsToBounds = true
     }
     
-    private func reloadCoverImageView() {
+    private func reloadCoverImageView(shouldLoadImage: Bool = false) {
         if coverImageView == nil {
             prepareCoverImageView()
         }
+        
+        if shouldLoadImage {
+            coverImageView.image = coverImage
+        }
+        
         coverImageView.removeFromSuperview()
         coverImageView.frame = CGRect(x: 0, y: self.tableView.contentOffset.y, width: self.view.frame.width, height: coverHeight - self.tableView.contentOffset.y)
-        self.tableView.insertSubview(coverImageView, at: 0)
+        self.view.insertSubview(coverImageView, at: 0)
     }
     
     public func changeCoverImage(with image: UIImage) {
         self.coverImage = image
+        self.reloadCoverImageView(shouldLoadImage: true)
     }
     
-    public func chanceCoverImage(withImageName: String) {
+    public func changeCoverImage(withImageName: String) {
         self.coverImage = UIImage(named: withImageName)
+        self.reloadCoverImageView(shouldLoadImage: true)
     }
+    
+    public func changeCoverImageHeight(to height: CGFloat) {
+        self.coverHeight = height
+        self.reloadCoverImageView()
+    }
+    
     
     /*
      override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

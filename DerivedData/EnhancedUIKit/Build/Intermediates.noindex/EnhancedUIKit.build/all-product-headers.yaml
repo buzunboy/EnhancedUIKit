@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/burakuzunboy/Projects/Frameworks/EnhancedUIKit/DerivedData/EnhancedUIKit/Build/Products/Debug-iphoneos/EnhancedUIKit.framework/Headers",
+      'name': "/Users/burakuzunboy/Projects/Frameworks/EnhancedUIKit/DerivedData/EnhancedUIKit/Build/Products/Release-iphoneos/EUIKit.framework/Headers",
       'contents': [
         {
           'type': 'file',
-          'name': "EnhancedUIKit-Swift.h",
-          'external-contents': "/Users/burakuzunboy/Projects/Frameworks/EnhancedUIKit/DerivedData/EnhancedUIKit/Build/Products/Debug-iphoneos/EnhancedUIKit.framework/Headers/EnhancedUIKit-Swift.h"
+          'name': "EUIKit-Swift.h",
+          'external-contents': "/Users/burakuzunboy/Projects/Frameworks/EnhancedUIKit/DerivedData/EnhancedUIKit/Build/Products/Release-iphoneos/EUIKit.framework/Headers/EUIKit-Swift.h"
         },
         {
           'type': 'file',
@@ -20,12 +20,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/burakuzunboy/Projects/Frameworks/EnhancedUIKit/DerivedData/EnhancedUIKit/Build/Products/Debug-iphoneos/EnhancedUIKit.framework/Modules",
+      'name': "/Users/burakuzunboy/Projects/Frameworks/EnhancedUIKit/DerivedData/EnhancedUIKit/Build/Products/Release-iphoneos/EUIKit.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/burakuzunboy/Projects/Frameworks/EnhancedUIKit/DerivedData/EnhancedUIKit/Build/Intermediates.noindex/EnhancedUIKit.build/Debug-iphoneos/EnhancedUIKit.build/module.modulemap"
+          'external-contents': "/Users/burakuzunboy/Projects/Frameworks/EnhancedUIKit/DerivedData/EnhancedUIKit/Build/Intermediates.noindex/EnhancedUIKit.build/Release-iphoneos/EUIKit.build/module.modulemap"
         }
       ]
     }

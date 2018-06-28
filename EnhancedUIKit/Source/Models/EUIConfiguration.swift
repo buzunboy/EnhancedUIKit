@@ -33,7 +33,7 @@ public class EUIConfiguration: NSObject {
      */
     public var LogLevel: logLevel = .Info {
         didSet {
-            EUIKit.LogInterface.log(withLevel: self.LogLevel, "Log Level is changed from \(oldValue) to \(self.LogLevel)")
+            EUIKit.LogInterface.log(withLevel: self.LogLevel, "Log Level is changed from \(oldValue) to \(self.LogLevel) - was: \(oldValue)")
         }
     }
     
@@ -61,7 +61,7 @@ public class EUIConfiguration: NSObject {
      */
     public var logFileName: String = "LogFile" {
         didSet {
-            EUIKit.LogInterface.log(withLevel: .Info, "Log file name is changed to: \(self.logFileName)")
+            EUIKit.LogInterface.log(withLevel: .Info, "Log file name is changed to: \(self.logFileName) - was: \(oldValue)")
         }
     }
     
@@ -74,9 +74,10 @@ public class EUIConfiguration: NSObject {
      */
     public var maximumLogFileSize: CGFloat = 30 {
         didSet {
-            EUIKit.LogInterface.log(withLevel: .Info, "Log file limit is set to \(self.maximumLogFileSize) MB")
+            EUIKit.LogInterface.log(withLevel: .Info, "Log file limit is set to \(self.maximumLogFileSize) MB - was: \(oldValue)")
         }
     }
+    
     
     // Private Propertiesxw
     

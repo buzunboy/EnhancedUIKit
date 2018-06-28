@@ -78,8 +78,19 @@ extension EUIKit {
          * - parameter object: The object to notify only specified observers. It can be passed nil, then all observers
          * with the same name will be notified
          */
-        public func addObserver(withName: String, willNotify: Selector, target: Any, object: Any? = nil) {
-            NotificationCenter.default.addObserver(target, selector: willNotify, name: Notification.Name(withName), object: nil)
+        public func subscribe(withName: String, willNotify: Selector, target: Any, object: Any? = nil) {
+            NotificationCenter.default.addObserver(target, selector: willNotify, name: Notification.Name(withName), object: object)
+        }
+        
+        /**
+         * Removes observer from the Notification Center.
+         *
+         * - parameter name: Name of the notification. Should be same while using the *subscribe(withName:willNotify:target:object)* method.
+         * - parameter target: Target which will be desired from the unsubscribe.
+         * - parameter object: The object if only specified object observer wanted to be unsubscribe. It can be passed nil, then unsubscribes all observers.
+         */
+        public func unsubscribe(name: String, target: Any, object: Any? = nil) {
+            NotificationCenter.default.removeObserver(target, name: Notification.Name(name), object: object)
         }
         
         /**
